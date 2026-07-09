@@ -17,7 +17,9 @@ This project was developed as a collaborative effort by:
 
 ## Tech Stack
 
-**React** · **React Router v6** · **JavaScript (ES6+)** · **Fetch API** · **JSON Server** · **React Hooks** · **Context API** · **Async/Await** · **Custom Hooks**
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-5E5E5E?style=for-the-badge&logo=json&logoColor=white)
+
+**React Router v6** · **Fetch API** · **React Hooks** · **Context API** · **Async/Await** · **Custom Hooks**
 
 ## Core Features
 
