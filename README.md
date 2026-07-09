@@ -17,9 +17,7 @@ This project was developed as a collaborative effort by:
 
 ## Tech Stack
 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/json-5E5E5E?style=for-the-badge&logo=json&logoColor=white)
-
-**React Router v6** · **Fetch API** · **React Hooks** · **Context API** · **Async/Await** · **Custom Hooks**
+![React](https://img.shields.io/badge/React-19-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-%23323330.svg?style=flat&logo=javascript&logoColor=%23F7DF1E) ![React Router](https://img.shields.io/badge/React_Router-v6-CA4245?style=flat&logo=react-router&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-8-%23646CFF.svg?style=flat&logo=vite&logoColor=white) ![NodeJS](https://img.shields.io/badge/Node.js-Express-6DA55F?style=flat&logo=node.js&logoColor=white) ![JSON](https://img.shields.io/badge/JSON_Server-Mock_API-5E5E5E?style=flat&logo=json&logoColor=white) ![Fetch API](https://img.shields.io/badge/Fetch_API-Async_Data-007ACC?style=flat) ![React Hooks](https://img.shields.io/badge/React_Hooks-Custom_&_Built_in-61DAFB?style=flat&logo=react&logoColor=black) ![Context API](https://img.shields.io/badge/Context_API-State_Management-purple?style=flat) ![Custom Hooks](https://img.shields.io/badge/Custom_Hooks-Logic_Separation-orange?style=flat) ![Async/Await](https://img.shields.io/badge/Async%2FAwait-Promises-success?style=flat)
 
 ## Core Features
 
