@@ -31,7 +31,7 @@ The project is based on a structured dataset similar to JSONPlaceholder and demo
 
 This project was developed as a collaborative effort by:
 
-- **Shira Silberman** - [GitHub](https://github.com/shirasil)
+- **Shira Silberman** - [GitHub](https://github.com/ShiraSil)
 - **Chana Belenson** - [GitHub](https://github.com/chanabelenson)
 
 ## Tech Stack
@@ -93,7 +93,7 @@ Make sure you have **Node.js** (v18 or higher) and **npm** installed on your mac
    Run the following commands in your terminal to clone the project and navigate into the root directory:
 
 ```text
-   git clone https://github.com/shirasil/react-users-management-system.git
+   git clone https://github.com/ShiraSil/react-users-management-system.git
 
    cd react-users-management-system
 ```
@@ -138,7 +138,7 @@ cd client
 npm run dev
 ```
 
-_Open your browser and navigate to the local address provided by Vite (typically http://localhost:5173/REACT-USERS-MANAGEMENT-SYSTEM/)._
+_Open your browser and navigate to the local address provided by Vite (typically http://localhost:5173/react-users-management-system/)._
 
 ---
 
