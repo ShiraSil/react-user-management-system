@@ -8,6 +8,25 @@ A full-featured React SPA that simulates a real-world user management system usi
 
 The project is based on a structured dataset similar to JSONPlaceholder and demonstrates advanced frontend development practices including authentication, routing, state management, and asynchronous data handling.
 
+## Application Preview
+
+<details>
+<summary>Click here to view screenshots of the app.</summary>
+
+### Login Page
+<img width="956" height="1016" alt="Login Page" src="https://github.com/user-attachments/assets/6329c6d0-b0c6-4fa8-ac47-d6991782f3dd" />
+
+### Home Page
+<img width="1352" height="1016" alt="Home Page" src="https://github.com/user-attachments/assets/8591d40c-6828-467c-9e87-a678470972a6" />
+
+### Todos Page
+<img width="1430" height="860" alt="Todos Page" src="https://github.com/user-attachments/assets/108e506d-6bf3-4759-9b3e-2a0e37f0f0b0" />
+
+### Albums Page -  View Album Photos
+<img width="1197" height="906" alt="Albums Page -  View Album Photos" src="https://github.com/user-attachments/assets/6830a1b3-c9e4-4907-9723-d07b4be90ec4" />
+
+</details>
+
 ## Collaborators
 
 This project was developed as a collaborative effort by:
@@ -39,6 +58,25 @@ This project was developed as a collaborative effort by:
 
 To simulate a scalable frontend system working with REST APIs, while applying modern React patterns and best practices in real application architecture.
 
+## Project Structure
+
+```text
+├── client/
+│   ├── public/         # Static assets & favicons
+│   └── src/
+│       ├── components/ # Global reusable UI components
+│       ├── features/   # Feature-based modules
+│       │   ├── albums/ # Albums pages and logic
+│       │   ├── auth/   # Authentication, Login, and AuthContext
+│       │   ├── posts/  # Posts & Comments management
+│       │   ├── shared/ # Shared custom hooks and components
+│       │   └── todos/  # Todos CRUD operations & caching
+│       ├── styles/     # Global application styles
+│       └── main.jsx    # Application entry point
+└── server/
+    └── db.json         # Mock REST API database
+```
+
 ---
 
 ## Getting Started
@@ -54,16 +92,20 @@ Make sure you have **Node.js** (v18 or higher) and **npm** installed on your mac
 1. **Clone the repository:**
    Run the following commands in your terminal to clone the project and navigate into the root directory:
 
-   **git clone [https://github.com/shirasil/react-users-management-system.git](https://github.com/shirasil/react-users-management-system.git)**
+```text
+   git clone https://github.com/shirasil/react-users-management-system.git
 
-   **cd react-users-management-system**
+   cd react-users-management-system
+```
 
 2. **Setup the Client (Frontend):**
    Navigate to the client directory and install the required dependencies:
 
-   **cd client**
+```text
+   cd client
 
-   **npm install**
+   npm install
+```
 
 3. **Setup the Server (Backend):**
    Open a new terminal window or tab, navigate to the server directory, and ensure your db.json file is present.
@@ -78,9 +120,11 @@ To run the full-stack application locally, you need to start **both** the fronte
 
 In your server terminal window, run the following commands to start the JSON Server on port 3002:
 
-**cd server**
+```text
+cd server
 
-**npx json-server --watch db.json --port 3002**
+npx json-server --watch db.json --port 3002
+```
 
 _Verify it's running by visiting: http://localhost:3002/users_
 
@@ -88,11 +132,13 @@ _Verify it's running by visiting: http://localhost:3002/users_
 
 In your client terminal window, run the development server:
 
-**cd client**
+```text
+cd client
 
-**npm run dev**
+npm run dev
+```
 
-_Open your browser and navigate to the local address provided by Vite (typically http://localhost:5173)._
+_Open your browser and navigate to the local address provided by Vite (typically http://localhost:5173/REACT-USERS-MANAGEMENT-SYSTEM/)._
 
 ---
 
