@@ -96,7 +96,6 @@ Make sure you have **Node.js** (v18 or higher) and **npm** installed on your mac
 
 ```text
    git clone https://github.com/ShiraSil/react-users-management-system.git
-
    cd react-users-management-system
 ```
 
@@ -105,7 +104,6 @@ Make sure you have **Node.js** (v18 or higher) and **npm** installed on your mac
 
 ```text
    cd client
-
    npm install
 ```
 
@@ -124,7 +122,6 @@ In your server terminal window, run the following commands to start the JSON Ser
 
 ```text
 cd server
-
 npx json-server --watch db.json --port 3002
 ```
 
@@ -136,7 +133,6 @@ In your client terminal window, run the development server:
 
 ```text
 cd client
-
 npm run dev
 ```
 
