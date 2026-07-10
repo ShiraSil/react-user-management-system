@@ -1,5 +1,7 @@
 # React Users Management System
 
+**[Click here to view the live deployment](https://shirasil.github.io/react-users-management-system/)**
+
 > “The system is based on a local JSON Server (fake REST API), so some functionality is not available in the GitHub Pages environment due to the lack of an active backend server. In the local development environment, all services run normally.”
 
 ## Overview
@@ -14,16 +16,16 @@ The project is based on a structured dataset similar to JSONPlaceholder and demo
 <summary>Click here to view screenshots of the app.</summary>
 
 ### Login Page
-<img width="956" height="1016" alt="Login Page" src="https://github.com/user-attachments/assets/6329c6d0-b0c6-4fa8-ac47-d6991782f3dd" />
+<img width="956" height="906" alt="Login Page" src="https://github.com/user-attachments/assets/e47cb1bd-43df-4ec4-9dbb-02eac4142b22" />
 
 ### Home Page
-<img width="1352" height="1016" alt="Home Page" src="https://github.com/user-attachments/assets/8591d40c-6828-467c-9e87-a678470972a6" />
+<img width="1352" height="905" alt="Home Page" src="https://github.com/user-attachments/assets/2f2b53d8-347a-4968-87dd-bd560ae85ead" />
 
 ### Todos Page
 <img width="1430" height="860" alt="Todos Page" src="https://github.com/user-attachments/assets/108e506d-6bf3-4759-9b3e-2a0e37f0f0b0" />
 
-### Albums Page -  View Album Photos
-<img width="1197" height="906" alt="Albums Page -  View Album Photos" src="https://github.com/user-attachments/assets/6830a1b3-c9e4-4907-9723-d07b4be90ec4" />
+### Album Photos View
+<img width="1197" height="906" alt="Album Photos View" src="https://github.com/user-attachments/assets/6830a1b3-c9e4-4907-9723-d07b4be90ec4" />
 
 </details>
 
