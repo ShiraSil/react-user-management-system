@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 
-const API_BASE_URL = "http://localhost:3002";
-
+const API_BASE_URL = "https://json-server-user-management-system.onrender.com/users";
 export function useFetchApi(baseUrl = API_BASE_URL) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
