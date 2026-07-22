@@ -1,7 +1,6 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
-const API_BASE_URL = "https://json-server-user-management-system.onrender.com";
-// const API_BASE_URL = "http://localhost:3002";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 export function useFetchApi(baseUrl = API_BASE_URL) {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
