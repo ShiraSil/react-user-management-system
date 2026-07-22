@@ -92,9 +92,9 @@ Make sure you have **Node.js** (v18 or higher) and **npm** installed on your mac
 ### Installation & Local Setup
 
 1. **Clone the repository:**
-   Run the following commands in your terminal to clone the project and navigate into the root directory:
+  Run the following commands in your terminal to clone the project and navigate into the root directory:
 
-```text
+```bash
    git clone https://github.com/ShiraSil/react-users-management-system.git
    cd react-users-management-system
 ```
@@ -102,13 +102,26 @@ Make sure you have **Node.js** (v18 or higher) and **npm** installed on your mac
 2. **Setup the Client (Frontend):**
    Navigate to the client directory and install the required dependencies:
 
-```text
+```bash
    cd client
    npm install
 ```
 
 3. **Setup the Server (Backend):**
-   Open a new terminal window or tab, navigate to the server directory, and ensure your db.json file is present.
+Open a new terminal window, navigate to the server directory, and install dependencies:
+
+```bash
+   cd server
+   npm install
+```
+
+## Environment Configuration
+
+This project uses Vite environment files to automatically handle API endpoints:
+- **Development:** Connects to `http://localhost:3002` (via `.env.development`).
+- **Production:** Connects to the deployed Render server (via `.env.production`).
+
+No manual configuration changes are required when switching environments.
 
 ---
 
@@ -120,7 +133,7 @@ To run the full-stack application locally, you need to start **both** the fronte
 
 In your server terminal window, run the following commands to start the JSON Server on port 3002:
 
-```text
+```bash
 cd server
 npx json-server --watch db.json --port 3002
 ```
@@ -131,7 +144,7 @@ _Verify it's running by visiting: http://localhost:3002/users_
 
 In your client terminal window, run the development server:
 
-```text
+```bash
 cd client
 npm run dev
 ```
@@ -146,7 +159,7 @@ Since this application utilizes a local JSON Server with a dataset structured li
 
 To log into the system, use any user record available in your db.json file under the users array using the following mapping:
 
-- **Username:** Use the "username" field value (e.g., Bret).
-- **Password:** Use the "website" field value (e.g., anastasia.net).
+- **Username:** Use the "username" field value (e.g., Danielc).
+- **Password:** Use the "website" field value (e.g., danielcohen.dev).
 
 > 📌 **Note:** Any modifications made during the session (such as creating new tasks or posts) will be written directly to your local db.json file.
