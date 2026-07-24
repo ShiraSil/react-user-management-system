@@ -1,3 +1,6 @@
+/* עיצוב כללי לכל העמודים */
+@import url('./global-nav.css');
+
 /* פריסה כללית של עמוד הבית - התאמה לצבעי ה-Todos */
 .home-layout {
   display: flex;
@@ -135,9 +138,6 @@
     overflow-y: auto;
     /* הסרת הרקע הלבן כדי לראות את ה-Gradient של ה-layout */
 }
-
-/* עיצוב כללי לכל העמודים */
-@import url('./global-nav.css');
 
 body {
     margin: 0;
