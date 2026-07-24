@@ -1,4 +1,4 @@
-# React Users Management System
+# React User Management System
 
 **[Click here to view the live deployment](https://shirasil.github.io/react-user-management-system/)**
 
