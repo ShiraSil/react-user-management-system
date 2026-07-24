@@ -1,6 +1,6 @@
 # React Users Management System
 
-**[Click here to view the live deployment](https://shirasil.github.io/react-users-management-system/)**
+**[Click here to view the live deployment](https://shirasil.github.io/react-user-management-system/)**
 
 > “The system is based on a local JSON Server (fake REST API), so some functionality is not available in the GitHub Pages environment due to the lack of an active backend server. In the local development environment, all services run normally.”
 
@@ -95,8 +95,8 @@ Make sure you have **Node.js** (v18 or higher) and **npm** installed on your mac
   Run the following commands in your terminal to clone the project and navigate into the root directory:
 
 ```bash
-   git clone https://github.com/ShiraSil/react-users-management-system.git
-   cd react-users-management-system
+   git clone https://github.com/ShiraSil/react-user-management-system.git
+   cd react-user-management-system
 ```
 
 2. **Setup the Client (Frontend):**
@@ -149,7 +149,7 @@ cd client
 npm run dev
 ```
 
-_Open your browser and navigate to the local address provided by Vite (typically http://localhost:5173/react-users-management-system/)._
+_Open your browser and navigate to the local address provided by Vite (typically http://localhost:5173/react-user-management-system/)._
 
 ---
 

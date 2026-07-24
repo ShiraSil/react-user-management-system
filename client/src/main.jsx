@@ -5,7 +5,7 @@ import App from "./components/App.jsx";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/react-users-management-system">
+    <BrowserRouter basename="/react-user-management-system">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
